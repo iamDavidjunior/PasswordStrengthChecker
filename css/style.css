@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-clr: #363636;
+  --blue-clr: #007bff;
+  --white-clr: #ffffff;
+  --gray-clr: rgba(128, 128, 128, 0.217);
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  color: var(--black-clr);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.container .form {
+  position: relative;
+  padding: 4em;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.password-input {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+#password {
+  padding: 0.75em 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#password-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+}
+#password-toggle i {
+  font-size: 1.75rem;
+  color: var(--gray-clr);
+}
+
+#strength-message {
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  font-size: 0.85rem;
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 0.75em 1em;
+  background-color: var(--blue-clr);
+  color: var(--white-clr);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
